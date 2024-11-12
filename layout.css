@@ -1,0 +1,80 @@
+body{
+    background-color: #FFF7F2;
+}
+
+ #header{
+    max-width: 100%;
+    margin: 0px auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+#logo img{
+    width: 60px;
+    height: auto;
+    margin-left: 50px;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+}
+.menu-text{
+    display: inline-block;
+    margin-right: 100px;
+    font-family: sans-serif;
+    color: rgb(53, 71, 98);
+    font-weight: bold;
+} 
+.menu-text:hover{
+    color: red;
+}
+#banner{
+    position: relative;
+}
+#banner-item img{
+    width: 95%;
+    height: 450px;
+    margin-left: 30px;
+    margin-right: 30px;
+} 
+#banner-item{
+    position: relative;
+    width: 100%;
+}
+#b-text{
+    position: absolute;
+    background-color: rgb(253, 245, 218);
+    border: none;
+    font-size: 35px;
+    top: 300px;
+    padding: 18px 30px;
+    margin-left: 420px;
+    font-family: "Agdasima", sans-serif;
+}
+.list-item{
+    margin-right: 80px;
+    display: inline-block;
+}
+.name{
+    font-size:30px;
+    font-family: "Agdasima", sans-serif;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.list-item img{
+    width:300px;
+    height: 250px;
+}
+
+#footer ul li{
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    justify-items: center;
+}
+#footer ul li:first-child{
+    margin-left: 50px;
+}
